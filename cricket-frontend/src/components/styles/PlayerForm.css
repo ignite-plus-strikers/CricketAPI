@@ -1,0 +1,43 @@
+
+.playerform{
+    margin-left: 600px;
+    width: 50%;
+  }
+  label {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+  }
+  
+  .i , label {
+    float:left;
+  }
+  .playerdetails{
+    margin-top:70px;
+    margin-left: 250px;
+    
+  }
+  
+  #playerTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  #playerTable td, #playerTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #playerTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #playerTable tr:hover {background-color: #ddd;}
+  
+  #playerTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #C71585;
+    color: white;
+  }
+  
